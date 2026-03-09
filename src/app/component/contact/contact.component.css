@@ -1,0 +1,50 @@
+.contact {
+  background: #020617;
+  color: #f1f5f9;
+  padding: 100px 0;
+}
+
+.contact h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.contact p {
+  color: #94a3b8;
+  line-height: 1.7;
+}
+
+.contact form .form-control {
+  background: #0f172a;
+  border: 1px solid #38bdf8;
+  color: #f1f5f9;
+  border-radius: 10px;
+}
+
+.contact form .form-control::placeholder {
+  color: #94a3b8;
+}
+
+.contact form .btn-primary {
+  background: #38bdf8;
+  border: none;
+}
+
+.contact form .btn-primary:hover {
+  background: #0ea5e9;
+}
+
+.contact .fa-solid,
+.contact .fa-brands {
+  color: #38bdf8;
+  margin-right: 8px;
+}
+
+.contact a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #0ea5e9;
+}

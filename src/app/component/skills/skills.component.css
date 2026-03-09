@@ -1,0 +1,39 @@
+.skills {
+  background: #0f172a;
+  padding: 100px 0;
+  color: #f1f5f9;
+}
+
+.skills h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #38bdf8;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-card {
+  margin-bottom: 30px;
+  padding: 25px;
+  border-radius: 15px;
+  background: #020617;
+  transition: 0.3s;
+}
+
+.skill-card i {
+  font-size: 40px;
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(56, 189, 248, 0.2);
+}
